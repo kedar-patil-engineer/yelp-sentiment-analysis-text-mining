@@ -37,6 +37,16 @@ Yelp's engagement attributes (Useful, Funny, Cool) to text quality.
 6. **Text quality measures** using TF-IDF and Lexical Diversity
 7. **Linear model** relating engagement attributes to text quality
 
+## Visualizations
+
+![Sentiment polarity distribution](assets/sentiment-polarity.png)
+
+Distribution of sentiment polarity scores across the 10,000 reviews.
+
+![Engagement attribute correlation](assets/engagement-correlation.png)
+
+Correlation between Yelp engagement attributes (Stars, Cool, Useful, Funny).
+
 ## Tech Stack
 
 Python, Pandas, NumPy, Matplotlib, Seaborn, NLTK / TextBlob, WordCloud, Scikit-learn,
