@@ -49,6 +49,23 @@ Jupyter Notebook.
 - `Text Mining Final .docx.pdf` - project report
 - `Project Overview.docx` - project summary
 
+## How to Run
+
+```bash
+git clone https://github.com/kedar-patil-engineer/yelp-sentiment-analysis-text-mining.git
+cd yelp-sentiment-analysis-text-mining
+python -m venv venv
+venv\Scripts\activate          # Windows  (use: source venv/bin/activate on macOS/Linux)
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Then open `TextminingKedar.ipynb` and run all cells.
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE).
+
 ## Author
 
 Kedar Patil - MS Business Analytics, California State University, East Bay
